@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="spotify.Automation.RestAPI">
+        <methods>
+          <include name="GetuserPlaylist"/>
+          <include name="GetAlbums"/>
+          <include name="GetBrowseRecommendations"/>
+          <include name="GetSeveralChapters"/>
+          <include name="GetFeaturedBrowsePlaylist"/>
+          <include name="GetSeveralBrowseCategories"/>
+          <include name="GetShowEpisodes"/>
+          <include name="CreatePlaylist"/>
+          <include name="GetShow"/>
+          <include name="GetSeveralAudiobooks"/>
+          <include name="ChangePlaylistDetails"/>
+          <include name="GetArtistRelatedArtists"/>
+          <include name="AddPlaylistItems"/>
+          <include name="CheckifUsersFollowPlaylist"/>
+          <include name="GetRecentlyPlayedTracks"/>
+          <include name="GetAvailableMarkets"/>
+          <include name="GetSeveralEpisode"/>
+          <include name="UpdatePlaylistItems"/>
+          <include name="GetSeveralShow"/>
+          <include name="GetAvailableBrowseSeeds"/>
+          <include name="GetUserProfile"/>
+          <include name="GetPlaylistcoverImage"/>
+          <include name="SkiptoPreviousPost"/>
+          <include name="userId"/>
+          <include name="GetArtist"/>
+          <include name="FollowPlaylist"/>
+          <include name="GetcurrentUserPlaylist"/>
+          <include name="CheckIfUserFollowsArtistsorUsers"/>
+          <include name="GetAudioTracksFeatures"/>
+          <include name="GetUserTopItems"/>
+          <include name="SearchForItems_queryParam"/>
+          <include name="GetSeveralArtist"/>
+          <include name="GetAlbumsTrack"/>
+          <include name="GetFollowedArtists"/>
+          <include name="GetNewRealsesBrowse"/>
+          <include name="GetAvailableDevices"/>
+          <include name="GetTracks"/>
+          <include name="GetEpisode"/>
+          <include name="GetTracksAudioAnalysis"/>
+          <include name="setup"/>
+          <include name="GetSeveralTracks"/>
+          <include name="GetBrowseCategoryPlaylist"/>
+          <include name="GetPlaylist"/>
+          <include name="GetPlaylistItems"/>
+          <include name="GetSingleBrowseCategory"/>
+          <include name="SearchForItems_pathParam"/>
+          <include name="SkiptoNextPost"/>
+          <include name="GetAudioTracksFeatured"/>
+          <include name="GetArtistAlbums"/>
+        </methods>
+      </class> <!-- spotify.Automation.RestAPI -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
